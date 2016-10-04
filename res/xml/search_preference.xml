@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_search"
+        android:title="@string/pref_search_title" >
+        <ListPreference
+            android:defaultValue="@string/pref_default_rest_type"
+            android:dialogTitle="@string/pref_dialog_rest_type"
+            android:entries="@array/pref_entries_rest_type"
+            android:entryValues="@array/pref_values_rest_type"
+            android:key="pref_rest_type"
+            android:summary="@string/pref_default_rest_type"
+            android:title="@string/pref_title_rest_type" />
+        <ListPreference
+            android:defaultValue="@string/pref_default_price"
+            android:dialogTitle="@string/pref_dialog_price"
+            android:entries="@array/pref_entries_price"
+            android:entryValues="@array/pref_values_price"
+            android:key="pref_price"
+            android:summary="@string/pref_default_price"
+            android:title="@string/pref_title_price" />
+        <ListPreference
+            android:defaultValue="@string/pref_default_rating"
+            android:dialogTitle="@string/pref_dialog_rating"
+            android:entries="@array/pref_entries_rating"
+            android:entryValues="@array/pref_values_rating"
+            android:key="pref_rating"
+            android:summary="@string/pref_default_rating"
+            android:title="@string/pref_title_rating" />
+        <ListPreference
+            android:defaultValue="@string/pref_default_district"
+            android:dialogTitle="@string/pref_dialog_district"
+            android:entries="@array/pref_entries_district"
+            android:entryValues="@array/pref_values_district"
+            android:key="pref_district"
+            android:summary="@string/pref_default_district"
+            android:title="@string/pref_title_district" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

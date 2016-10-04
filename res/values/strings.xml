@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">TouristGuide</string>
+    <string name="title_activity_main">Tourist Guide</string>
+
+    <string name="MapAPIKey">AIzaSyB_al0IOnnhFfc2tV7_wh7DbRZYjP6s_ck</string>
+    
+    <string name="rest_data_url">http://eddiechan.net16.net/kml_gen.php</string>
+    
+    <!-- Option menu -->
+    <string name="menu_search">Search</string>
+    <string name="menu_list">List</string>
+    <string name="menu_search_ok">OK</string>
+    <string name="menu_detail_close">Close</string>
+
+    
+    <!-- alert dialog -->
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+
+
+    <!-- Restaurant list -->
+    <string name="rest_list_header">Restaurant</string>
+    
+    
+    <!-- Search preference screen -->
+    <string name="pref_search_title">Restaurant Search</string>
+ 
+    <string name="pref_default_rest_type">Any</string>
+    <string name="pref_dialog_rest_type">Cuisine</string>
+    <string name="pref_title_rest_type">Cuisine</string>
+    <string-array name="pref_entries_rest_type">
+        <item >Chinese</item>
+        <item >Japanese</item>
+        <item >Italian</item>
+        <item >French</item>
+        <item >Maxican</item>
+        <item >American</item>
+        <item >Any</item>
+    </string-array>
+    <string-array name="pref_values_rest_type">
+        <item >Chinese</item>
+        <item >Japanese</item>
+        <item >Italian</item>
+        <item >French</item>
+        <item >Maxican</item>
+        <item >American</item>
+        <item >Any</item>
+    </string-array>
+    
+    <string name="pref_default_price">Any</string>
+    <string name="pref_dialog_price">Price</string>
+    <string name="pref_title_price">Price</string>
+    <string-array name="pref_entries_price">
+        <item >Extravangance</item>
+        <item >Expensive</item>
+        <item >Economical</item>
+        <item >Cheap</item>
+        <item >Any</item>
+    </string-array>
+    <string-array name="pref_values_price">
+        <item >Extravangance</item>
+        <item >Expensive</item>
+        <item >Economical</item>
+        <item >Cheap</item>
+        <item >Any</item>
+    </string-array>
+    
+    <string name="pref_default_rating">Any</string>
+    <string name="pref_dialog_rating">Rating</string>
+    <string name="pref_title_rating">Rating</string>
+    <string-array name="pref_entries_rating">
+        <item >Excellent</item>
+        <item >Good</item>
+        <item >Normal</item>
+        <item >Poor</item>
+        <item >Any</item>
+	</string-array>
+    <string-array name="pref_values_rating">
+        <item >Excellent</item>
+        <item >Good</item>
+        <item >Normal</item>
+        <item >Poor</item>
+        <item >Any</item>
+    </string-array>
+
+    <string name="pref_default_district">Central</string>
+    <string name="pref_dialog_district">District</string>
+    <string name="pref_title_district">District</string>
+    <string-array name="pref_entries_district">
+        <item >Central</item>
+        <item >Tsim Sha Tsui</item>
+        <item >Causeway Bay</item>
+        <item >Any</item>
+    </string-array>
+    <string-array name="pref_values_district">
+        <item >Central</item>
+        <item >Tsim Sha Tsui</item>
+        <item >Causeway Bay</item>
+        <item >Any</item>
+    </string-array>
+</resources>
